@@ -2,10 +2,10 @@
 # Owner's Personal Information
 ###########################################################
 # This is your brand name
-brand: "Your Brand"
+brand: "AoE2.net Desktop"
 
 # used for seo meta post author (if it's not defined in post)
-name: "Your Name"
+name: "Teshi"
 
 # if you don't want to add copyright year, comment or leave it blank.
 # the year during which the claimed copyright for the work was first asserted.
@@ -23,13 +23,13 @@ creative_commons:
   # 4. by-nc     Attribution-NonCommercial 4.0 International
   # 5. by-nc-nd  Attribution-NonCommercial-NoDerivatives 4.0 International
   # 6. by-nc-sa  Attribution-NonCommercial-ShareAlike 4.0 International
-  license_type: "by-sa"
+  license_type: "by-nc-sa"
 
 # contact options (side nav bottom and about page)
 # the order of the items will be shown as here.
 # comment to remove any contact item
 contacts:
-  #- github: ""
+  - github: "teshiba"
   #- email: ""
   #- linkedin: ""
   #- twitter: ""
