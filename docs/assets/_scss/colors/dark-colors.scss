@@ -15,6 +15,7 @@ $header-color-dark: #c0c0c0;
 $container-background-dark: #2a2a2a;
 $hr-color-dark: #333;
 $anchor-text-color-dark: #3389de;
+$header-background-color-dark: #383a3d;
 
 // layout: default
 // default/body-main-styles
@@ -23,6 +24,7 @@ $anchor-text-color-dark: #3389de;
   --body-anchor-hover-text-color: #2f6597;
   --body-text-color: #b0b0b0;
   --body-header-text-color: #{$header-color-dark};
+  --body-header-background-color: #{$header-background-color-dark};
   --body-background-color: #{$main-background-dark};
   --body-hr-color: #{$hr-color-dark};
 }

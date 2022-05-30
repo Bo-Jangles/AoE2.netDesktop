@@ -15,6 +15,7 @@ $header-color-light: #5f5e5e;
 $container-background-light: #fff;
 $hr-color-light: #eee;
 $anchor-text-color-light: #3389de;
+$header-background-color-light: #e5eeff;
 
 // layout: default
 // default/body-main-styles
@@ -23,6 +24,7 @@ $anchor-text-color-light: #3389de;
   --body-anchor-hover-text-color: #2f6597;
   --body-text-color: #6a6a6a;
   --body-header-text-color: #{$header-color-light};
+  --body-header-background-color: #{$header-background-color-light};
   --body-background-color: #{$main-background-light};
   --body-hr-color: #{$hr-color-light};
 }

@@ -44,6 +44,29 @@
   color: var(--home-intro-text-header-color);
 }
 
+.home-intro-text > h1 {
+  font-size: 26px;
+  background-color: var(--body-header-background-color);
+  border-bottom: solid 3px #7b7d7f;
+  border-left: solid 9px #0d73da;
+  padding: 5px;
+}
+
+.home-intro-text > h2 {
+  font-size: 24px;
+  border-bottom: solid 3px #656667;
+  padding: 5px;
+  margin: 3px;
+}
+
+.home-intro-text > h3 {
+  font-size: 22px;
+  border-bottom: solid 2px #989696;
+  padding: 5px;
+  margin: 10px;
+}
+
+
 .home-intro-text > p {
   font-size: 1.6rem;
   line-height: 2.4rem;
