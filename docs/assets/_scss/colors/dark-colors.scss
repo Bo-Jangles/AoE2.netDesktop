@@ -152,6 +152,7 @@ $header-background-color-dark: #383a3d;
 // common/markdown-style
 %markdown-style-colors-dark {
   --markdown-styles-header-text-color: #{$header-color-dark};
+  --markdown-styles-table-head-background-color: #292650;
   --markdown-styles-table-border-color: #444;
   --markdown-styles-blockquote-background-color: #333;
   --markdown-styles-blockquote-side-color: #{$brand-color-dark};
