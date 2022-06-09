@@ -94,8 +94,15 @@
   color: var(--markdown-styles-header-text-color);
 }
 
-.markdown-style .table-striped > tbody > tr:last-child {
-  border-bottom-color: var(--markdown-styles-table-border-color);
+.markdown-style .table-striped > thead {
+  border-color: var(--markdown-styles-table-border-color);
+  background-color:var(--markdown-styles-table-head-background-color);
+  border-style: solid;
+}
+
+.markdown-style .table-striped > tbody {
+  border-color: var(--markdown-styles-table-border-color);
+  border-style: solid;
 }
 
 .markdown-style blockquote {
