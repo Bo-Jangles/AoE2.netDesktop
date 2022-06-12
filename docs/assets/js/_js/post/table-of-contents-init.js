@@ -19,7 +19,9 @@
         const tocInputSource = $(".main-container");
 
         /* if it's nothing to show, exit. */
+        /* disable condition because cannot show in home.
         if (Toc.helpers.getTopLevel(tocInputSource) <= 1) return false;
+        */
         Toc.init({
           $nav: tocOutputTarget
           , $scope: tocInputSource

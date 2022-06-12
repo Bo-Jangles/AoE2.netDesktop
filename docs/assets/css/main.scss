@@ -204,7 +204,8 @@
 {% if home_page_exist %}
   @import "home/home-heading";
   @import "home/new-posts";
-{% endif %}
+  @import "post/table-of-contents";
+  {% endif %}
 
 {% if about_page_exist %}
   @import "about/about-style";

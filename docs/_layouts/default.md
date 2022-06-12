@@ -38,7 +38,7 @@ layout: util/compress
     {%- endif %}
     {% include default/nav/navigation-top-nav.html -%}
     {% include default/nav/navigation-side-nav.html -%}
-    {% if site.data.conf.posts.post_table_of_contents and page.layout == "post"-%}
+    {% if site.data.conf.posts.post_table_of_contents and page.layout == "post" or page.layout == "home" -%}
       {%- include post/table-of-contents.html -%}
     {%- endif -%}
     <div id="main-wrapper">

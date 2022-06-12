@@ -74,15 +74,10 @@ layout: util/compress_js
   {%- if site.data.conf.posts.share_buttons == true -%}
     {% include_relative _js/post/copy-to-clipboard.js %}
   {%- endif %}
-
-  {%- if site.data.conf.posts.post_table_of_contents == true -%}
-    {% include_relative _js/post/movable-panels.js %}
   {%- endif %}
 
-  {%- if site.data.conf.posts.post_table_of_contents == true -%}
-    {% include_relative _js/post/table-of-contents-init.js %}
-  {%- endif %}
-{%- endif %}
+{% include_relative _js/post/movable-panels.js %}
+{% include_relative _js/post/table-of-contents-init.js %}
 
 {%- if post_exist or post_list_page_exist %}
   {% if site.data.conf.posts.pager_page_numbers_auto_generator == true %}
