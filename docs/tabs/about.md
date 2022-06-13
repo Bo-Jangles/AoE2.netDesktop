@@ -33,10 +33,4 @@ img: ":about.jpg"
 # to disable this page, simply set published: false or delete this file
 #published: false
 ---
-
-{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
-
-{%- include util/auto-content-generator.liquid -%}
-{{ website_info_text_first }}
-
-{{ website_info_text_second }}
+Age of Empires II: HD© and Age of Empires II: Definitive Edition© Microsoft Corporation. AoE2.net was created under Microsoft's "Game Content Usage Rules" using assets from Age of Empires II: Definitive Edition, and it is not endorsed by or affiliated with Microsoft.

@@ -39,54 +39,33 @@ lng_pair: id_links
 ###########################################################
 page_data:
   main:
-    header: "リンク"
-    info: "リンクページの説明はこちら。"
+    header: "Links"
+    info: "Your Links page description."
 
-  # To change order of the Categories, simply change order. (you don't need to change list order.)
+  # To change order of the Categories, simply change the order. (you don't need to change list order.)
   category:
-    - title: "JekyII / Liquid"
-      type: id_jekyiiliquid
+    - title: "Web Service"
+      type: id_webService
       color: "gray"
-    - title: "Webデザイン"
-      type: id_webdesign
+    - title: "Web Store"
+      type: id_webStore
       color: "#F4A273"
-    - title: "プログラミング"
-      type: id_programming
-      color: "#62b462"
 
   list:
     -
-    # programming
-    - type: id_programming
-      title: "Stack OverFlow"
-      url: "https://stackoverflow.com/"
-      info: "Stack Overflowは、プロや熱狂的なプログラマー向けの質疑応答Webサイトです。"
+    # webService
+    - type: id_webService
+      title: "aoe2.net"
+      url: "https://aoe2.net/"
+      info: "aoe2.net は AoE2DEのプレーヤーの戦績と現在行われているマッチの情報を確認できます。"
+    - type: id_webService
+      title: "AoE2DE Technology Tree"
+      url: "https://aoe2techtree.net/"
+      info: "ゲーム内で確認できるテクノロジーツリーです。"
 
-    # jekyiiliquid
-    - type: id_jekyiiliquid
-      title: "Jekyll"
-      url: "https://jekyllrb.com/"
-      info: "プレーンテキストを静的なWebサイトやブログに変換します。"
-    - type: id_jekyiiliquid
-      title: "Jekyllチートシート"
-      url: "https://cloudcannon.com/community/jekyll-cheat-sheet/"
-      info: "覚えておくべきJekyll変数とフィルターは非常に多く、すべてを頭の中に入れておくのは難しい場合があります。 このチートシートは、Jekyllが実行できるすべてのことのクイックリファレンスとして使えます。"
-    - type: id_jekyiiliquid
-      title: "デザイナー向けLiquid"
-      url: "https://github.com/Shopify/liquid/wiki/Liquid-for-Designers"
-      info: "デザイナー向けLiquid用GitHub wiki"
-    - type: id_jekyiiliquid
-      title: "プログラマー向けLiquid"
-      url: "https://github.com/Shopify/liquid/wiki/Liquid-for-Programmers"
-      info: "プログラマー向けLiquid用GitHub wiki"
-    - type: id_jekyiiliquid
-      title: "Liquidリファレンス"
-      url: "https://shopify.dev/api/liquid/"
-      info: "Liquidは、Shopifyによって作成され、Rubyで記述されたテンプレート言語です。 GitHubでオープンソースプロジェクトとして利用できるようになりました。"
-
-    # webdesign
-    - type: id_webdesign
-      title: "W3Schools"
-      url: "https://www.w3schools.com/"
-      info: "W3Schoolsは、Webのすべての主要言語で、無料のオンラインチュートリアル、リファレンス、および演習を提供しています。 HTML、CSS、JavaScript、Python、SQL、Javaなどの人気のあるテーマをカバーしています。"
+    # webStore
+    - type: id_webStore
+      title: "Steam"
+      url: "https://store.steampowered.com/app/813780/Age_of_Empires_II_Definitive_Edition/"
+      info: "Age of Empires II Definitive Editionを購入できるサイトです。"
 ---

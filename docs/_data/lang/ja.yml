@@ -27,7 +27,7 @@ not_found:
 no_translation_tooltip: 訳がありません
 
 navigation:
-  brand_sub_text: Jekyllテーマ
+  brand_sub_text: AoE2DEツール
   contact_header: コンタクト
 
 color_scheme_switch_tooltip: 配色
@@ -83,7 +83,7 @@ post:
           load_once: 今回のみ表示
           load_and_do_not_ask_again: 常に表示
   table_of_contents:
-    heading: 見出し
+    heading: 目次
     tooltip:
       move: ドラッグして移動
       close: 閉じる
@@ -132,7 +132,7 @@ home:
   # you can use $site_brand in line1 and line2 to convert your site.data.owner.brand text
   top_header_line1: "ようこそ"
   # if commented, top header will be a single line
-  top_header_line2: "$site_brand テーマへ"
+  top_header_line2: "$site_brand マニュアルへ"
 
 # for archives layout
 archives:
@@ -144,7 +144,7 @@ archives:
 about:
   title: 私について
   button_name: 私について
-  sub_title: クールなjekyllテーマ
+  sub_title: AoE2DEデスクトップアプリ
   email_title: メール
 
 # for links layout
