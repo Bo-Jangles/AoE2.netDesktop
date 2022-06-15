@@ -47,20 +47,20 @@ The software uses the .Net 6.0 runtime, so if it does not work, please install t
 
 # How to use
 
-1: Start the application, then the following window will display.
-2: Register your Steam-ID or Profile-ID and press the <span class = "button"> Set ID </span> button.
+1: Start the application, then the following window will display.  
+2: Register your Steam-ID or Profile-ID and press the <span class = "button"> Set ID </span> button.  
 
 ![InitialSetting](:InitalSetting.png "InitialSetting")
 
-3: If The ID is correct, the display will change to AoE2.net <span style = "color: green">**Online**</span>.
+3: Set correct ID, AoE2.net status will change to <span style = "color: green">**Online**</span>.
 
-_If [AoE2.net](https://aoe2.net/ "AoE2.net") is available, and you can use this app._
+_If [AoE2.net](https://aoe2.net/ "AoE2.net") is available, you can use this app._
 
 ![online](:online.png "online")
 
-# Main screen
+# Main window
 
-If the ID is correct, the main window will show the current match's or last match's result.  
+Set the correct ID, and the main window will show the current match's or last match's result.  
 The display layouts are different for 1v1 matches and team matches.  
 They are displayed as follows.  
 
@@ -87,12 +87,12 @@ And you can perform the following on the window.
 
 ## Keyboard operation
 
-| Operation method          | Operation details                                                  |
-| ------------------------- | ------------------------------------------------------------------ |
-| Alt + F4                  | Exit Application                                                   |
-| F5                        | Updated match information on the main window                       |
-| Alt + cursor keys         | Scale window in 10-pixel increments in the direction of the cursor |
-| Alt + Shift + Cursor Keys | Scale window in 1-pixel inclement in the direction of the cursor   |
+| Operation method          | Operation details                                                   |
+| ------------------------- | ------------------------------------------------------------------- |
+| Alt + F4                  | Exit the application.                                               |
+| F5                        | Updated match information on the main window.                       |
+| Alt + cursor keys         | Scale window in 10-pixel increments in the direction of the cursor. |
+| Alt + Shift + Cursor Keys | Scale window in 1-pixel inclement in the direction of the cursor.   |
 
 ## Context menu
 
@@ -116,13 +116,13 @@ Select the leaderboard from the list and change the left list to the selected ma
 
 | Items        | Contents                                                                     |
 | ------------ | ---------------------------------------------------------------------------- |
-| Map          | Used map                                                                     |
-| Rate         | The rate at the time of the match and the change value of the rate           |
+| Map          | Maps ever used.                                                              |
+| Rate         | The rate at the time of the match and the change value of the rate.          |
 | Win          | Shows the status of victory or defeat <br> "○" is given to the winning game. |
-| Civilization | Used civilization                                                            |
-| Color        | player color number                                                          |
-| Date         | Date and time of the match                                                   |
-| Version      | Software version of the AoE2DE                                               |
+| Civilization | civilization ever used.                                                      |
+| Color        | player color number.                                                         |
+| Date         | Date and time of the match.                                                  |
+| Version      | Software version of the AoE2DE.                                              |
 
 The right graph shows the win or loss.  
 Select "Data source" to switch between civilization and map.  
@@ -137,31 +137,31 @@ Select "Data source" to switch between civilization and map.
 
 ## Players tab
 
-Displays information about enemy or ally players in the past.  
+Displays information about players ever matched.  
 The left table shows a list of players and player information.  
 
-| Items      | Contents                                                                                          |
-| ---------- | ------------------------------------------------------------------------------------------------- |
-| Name       | Player name                                                                                       |
-| Country    | Country name                                                                                      |
-| 1v1 Rate   | Rate when 1v1 played <br> Not display if you are not playing a 1v1 match with the player.         |
-| Team Rate  | Rate when team match played <br> Not display if you are not playing a team match with the player. |
-| Team Games | Number of games played with the players                                                           |
-| Ally       | Number of games participated as the ally players                                                  |
-| Enemy      | Number of games participated as the enemy players                                                 |
-| 1v1        | Number of games played 1v1                                                                        |
-| Last Date  | The Date of the last match                                                                        |
+| Items      | Contents                                                                                           |
+| ---------- | -------------------------------------------------------------------------------------------------- |
+| Name       | Player name.                                                                                       |
+| Country    | Country name.                                                                                      |
+| 1v1 Rate   | Rate when 1v1 played. <br> Not display if you are not playing a 1v1 match with the player.         |
+| Team Rate  | Rate when team match played. <br> Not display if you are not playing a team match with the player. |
+| Team Games | Number of games played with the players.                                                           |
+| Ally       | Number of games participated as the ally players.                                                  |
+| Enemy      | Number of games participated as the enemy players.                                                 |
+| 1v1        | Number of games played 1v1.                                                                        |
+| Last Date  | The Date of the last match.                                                                        |
 
 ![PlayerTab](:PlayerTab.png "PlayerTab")
 
-Input characters in the Find text box and can search for the player name by incremental search.  
+Input characters in the Find textbox and can search for the player name by incremental search.  
 If you want to ignore the case, check the "Ignore case" checkbox.  
 
 ![PlayerTabFilter](:PlayerTabFilter.png "PlayerTabFilter")
 
-The right graph shows the number of players who have become opponents and teams in the past by country.  
-Right-clicking on a column heading in the list will bring up a list of countries as a filter.  
-It shows only players from the checked countries.  
+The right graph shows the number of players ever matched by country.  
+Right-click on a column heading in the list and bring up the country filter.  
+Show only the players whose country is checked.  
 
 ![CountryFilter](:CountryFilter.png "CountryFilter")
 
@@ -172,9 +172,9 @@ Displays statistics and rate history graphs for each match type.
 | Items          | Contents                                                    |
 | -------------- | ----------------------------------------------------------- |
 | Leaderboard    | The graph shows the match format with the checkbox checked. |
-| Rank           | Rank                                                        |
-| Rate           | Rate                                                        |
-| Highest Rating | Highest Rate ever                                           |
+| Rank           | Current rank                                                |
+| Rate           | Current rate                                                |
+| Highest Rating | Maximum Number of rate                                      |
 | Game           | Number of games                                             |
 | Win%           | Win rate                                                    |
 | Wins           | Number of Wins                                              |
